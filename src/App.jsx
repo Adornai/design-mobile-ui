@@ -15,6 +15,7 @@ import { MdOutlineExplore } from "react-icons/md";
 import { GrFavorite } from "react-icons/gr";
 import { RiBuildingLine } from "react-icons/ri";
 import { IoSettingsOutline } from "react-icons/io5";
+import profilePic from './assets/pfp.jpg'; 
 import viteLogo from "/vite.svg";
 import "./App.css";
 
@@ -61,7 +62,7 @@ function App() {
           <div className={`border border-gray-200 rounded-3xl mt-2 py-2 mx-1 bg-gray-200 flex space-x-2 hover:bg-gray-300 ${boxClass}`}>
             <div>
               <img
-                src="src/assets/pfp.jpg"
+                 src={profilePic}
                 alt=""
                 className="rounded-full w-15 h-15 cursor-progress"
               />
